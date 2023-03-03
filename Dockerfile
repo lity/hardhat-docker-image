@@ -13,4 +13,4 @@ RUN npm i pnpm -g \
 
 EXPOSE 8545
 
-CMD npx hardhat node
+CMD ["npx", "hardhat", "node"]
