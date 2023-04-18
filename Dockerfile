@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-WORKDIR /home/hardhat-project
+WORKDIR /home/hardhat-network
 
 ENV PNPM_HOME=/root/.local/share/pnpm
 ENV PATH=$PATH:$PNPM_HOME
